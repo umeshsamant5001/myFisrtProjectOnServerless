@@ -1,0 +1,240 @@
+@media only screen and (min-width: 768px) and (max-width: 967px) {
+ 
+	#sidebar .sidebar-header .logo {
+		padding-bottom:5px;
+	}
+	#header h1 {
+		font-size:16px;
+		width: 48%;
+	}
+	#header .info {
+		padding-top: 16px;
+		padding-bottom: 3px;
+    }
+    #header .info span {
+		font-size: 15px;
+	}
+	#header .navbar
+	{
+		padding: 4px;
+	}	
+	.userList .box {
+		margin-bottom:20px;
+	}
+	.formdisplay .patient-form {
+	  padding: 0;
+	}
+	
+	#sidebar.active {
+    min-width: 200px;
+    max-width: 200px;
+    text-align: left;
+   }
+   #sidebar.active ul li a {
+    padding: 13px 13px;
+   }
+	.form-check-inline {
+		align-items: start;
+	}
+
+  
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+	input[type="date"] {
+		-webkit-appearance: listbox;
+	}
+	select.lineNumber {
+    display: inline !important;
+    width: auto;
+	}
+	#mytable{margin-bottom:20px;}
+	#sidebar .sidebar-header .logo {
+		padding-left: 37px;
+	}
+	#header .toggle {
+		z-index:999;
+	}
+	#header .navbar
+	{
+		padding-top:0px;
+		padding-bottom:0px;
+	}
+
+	#header .info {
+	 	padding-top: 20px;
+		padding-bottom: 10px;
+		margin-top: -12px;
+	}
+	#header .info span {
+		font-size: 11px;
+	}
+
+	#header h1 {
+		font-size:14px;
+
+	}
+	#sidebar ul li #btnPlus {
+    position: absolute;  
+    left:318px;
+    bottom: 8px;
+    background: 
+    transparent;
+}
+	#sidebar ul li #btnMinus {
+    position: absolute;
+    left:318px;
+    bottom: 8px;
+    background: 
+    transparent;
+}
+	#header .navbar .bell {
+		padding: 3px;
+	}
+	#header .navbar h1 { 
+  		font-size:16px;
+  		padding-top:6px;
+	}
+	.box {
+		margin-bottom:20px;
+	}
+	#myTabContent .col-md-6{
+		width:50%;
+	}
+	#header .navbar .toggle {
+    
+    margin-left: 0px;
+}
+#sidebar.active ul li a .nav-text {
+    display: block;
+}
+
+.viewList select ,.viewList #myTable11_filter input {
+    display: inline;
+    
+}
+.titileform{margin-top:30px;}
+.card {
+    margin: 30px 0 70px 0;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+    float: none;
+    text-align: left;
+}
+.viewList {
+    padding: 5px 10px;
+}
+#sidebar {position: none;}
+#content.active {
+    width: calc(100% - 250px);
+}
+#content {width: 100%;}
+
+/*#sidebar {
+  /*Strictly Necessary   
+  height: 100%;
+  margin: 0px;  
+ 
+  
+  
+}
+*/ 
+.sticky {
+
+    padding-top: 0px;
+}
+.sticky + .wrapper {
+  padding-top: 110px;
+}
+#content{padding-left: 0px;
+}
+.selectboxmar{margin-left: 0px;}
+	
+#header .navbar .info{text-align: left;}
+	.medicineList .btnAdd {
+    padding-left: 0px;
+	margin-bottom:10px;
+	}
+	.medicineList {
+		padding: 0;
+		margin-left: 0px;
+	}
+	.titileform h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+        margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 0px;
+    color: #ec268f;
+	}
+	.table-responsive {
+    padding: 10px;}
+	
+	.patientVisit-form .col-xs-12{
+	padding:0;
+	}
+	.patientList .titileform h2 {
+
+    margin-left: 10px;
+
+	}
+	.toggle {
+		z-index: 999;
+	}
+	#sidebar.active
+	{
+		position: absolute;
+		z-index: 1;
+		min-height:2300px;
+		/*min-width: 345px;*/
+		min-width: 100%;
+	}
+	#sidebar.active .navbar
+	{
+		padding-top:0px;
+		padding-bottom:25px;
+	}
+	#sidebar.active	.box {
+		margin-bottom:20px;
+	}
+
+
+   .dropdown-toggle::after {
+    
+    }
+   .patient-form {
+	  padding: 0;
+	}
+  .patient-form .labelArea {
+  	width:unset;
+  	}
+  .patient-form .form-check-inline {
+     	display: contents;
+    }
+  /*.patient-form .radioArea {
+  	width: 60px;
+  }*/
+  .userList .vertBlock p {
+  	font-size:11px;
+  	}
+  .appointment-form {
+  	padding: 0;
+  	}
+  .appointment-form .form-control {
+  	margin-bottom:20px;
+  	}
+  .footerRight{
+  text-align: left;
+	}
+  .footerLeft{
+  padding-left:15px;
+	}
+	#btnPlus .fa-w-14{vertical-align: 11px;}
+	#btnMinus .fa-w-14{vertical-align: 11px;}
+	
+}
+
+
+

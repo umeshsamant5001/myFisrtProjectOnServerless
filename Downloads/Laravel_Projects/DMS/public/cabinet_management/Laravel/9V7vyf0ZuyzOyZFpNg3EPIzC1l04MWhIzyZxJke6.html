@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> DMS - Document Management System </title>
+
+    <?php include_once('header.php');?>
+        <!-- Sidebar  -->
+        <div class="wrapper">
+            <?php include_once('sidebar.php');?>
+                <div id="content">
+
+                    <div class="">
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <div class="card">
+                                    <div class="card-header">Company Setup</div>
+                                    <div class="card-body">
+                                        <form method="POST" action="">
+                                            <div class="form-group row">
+                                                <label for="comp_name" class="col-md-4 col-form-label text-md-right">Company Name:</label>
+
+                                                <div class="col-md-6">
+                                                    <input id="name" type="text" class="form-control " name="comp_name" placeholder="Enter Company Name" value="" required>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label for="contact_no" class="col-md-4 col-form-label text-md-right">Contact No.</label>
+
+                                                <div class="col-md-6">
+                                                    <input id="contact_no" type="number" class="form-control " name="contact_no" value="" placeholder="Enter Contact No" required>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label for="email_id" class="col-md-4 col-form-label text-md-right">Email:</label>
+
+                                                <div class="col-md-6">
+                                                    <input type="email" class="form-control" placeholder="Enter email" name="email_id" value="" required="" autocomplete="email_id">
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label for="address" class="col-md-4 col-form-label text-md-right">Address:</label>
+
+                                                <div class="col-md-6">
+                                                    <textarea rows="3" type="text" class="form-control" name="address" placeholder="Enter Address"></textarea>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label for="pwd" class="col-md-4 col-form-label text-md-right">Password Reset:</label>
+
+                                                <div class="col-md-6">
+                                                    <select type="password" class="form-control" name="password_reset1" placeholder="Enter password">
+                                                        <option>Select One</option>
+                                                        <option value="yes">Yes</option>
+                                                        <option value="no">No</option>
+                                                    </select>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label for="pwd" class="col-md-4 col-form-label text-md-right">Password:</label>
+
+                                                <div class="col-md-6">
+                                                    <input id="" type="password" class="form-control" name="password_reset" required>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label for="days" class="col-md-4 col-form-label text-md-right">After No Of Days :</label>
+
+                                                <div class="col-md-6">
+                                                    <select type="number" class="form-control" name="after_no_of_days" placeholder="Enter No Of Days">
+                                                        <option>Select Days</option>
+                                                        <option value="30">30 Days</option>
+                                                        <option value="60">60 Days</option>
+                                                        <option value="90">90 Days</option>
+                                                    </select>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row">
+                                                <label for="app_name" class="col-md-4 col-form-label text-md-right">Application Name:</label>
+
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" name="app_name" placeholder="Enter Application Name" required>
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="db_name" class="col-md-4 col-form-label text-md-right">Database Name:</label>
+
+                                                <div class="col-md-6">
+                                                    <input type="text" class="form-control" name="db_name" placeholder="Enter Database Name">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group row mb-0">
+                                                <div class="col-md-6 offset-md-5">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        Save
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <?php include_once('footer.php');?>
+
+            </body>
+
+</html>

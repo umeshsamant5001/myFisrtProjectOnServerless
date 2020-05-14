@@ -1,0 +1,100 @@
+body{
+	margin-top: 50px;
+}
+
+.nav-item{
+	font-size: 16px;
+}
+.card-header {
+
+	background-color: #00BCD4;
+	color: #fff;
+}
+
+.btn-info{
+	background-color: #00BCD4!important;
+}
+
+.btn-warning{
+	background-color: #FF9800!important;
+}
+
+.btn-success{
+	background-color: #8BC34A!important;
+}
+
+
+.bg-success {
+    background-color: #8BC34A!important;
+}
+
+.bg-info{
+	background-color:  #00BCD4!important;
+}
+
+.bg-warning{
+	background-color: #FF9800!important;
+}
+
+.bg-danger{
+	background-color: #E91E63!important;
+}
+.color-white{
+	color:#fff;
+}
+#sidebar{
+	background-color: #333;
+	height: 85vh;
+	z-index: 100;
+}
+.sidebar-wrapper {
+    display: flex;
+    width: 100%;
+	align-items: stretch;
+	
+	
+	/* margin-bottom: -5000px; /* any large number will do */
+	padding-bottom: 5000px; 
+}
+
+#sidebar li a{
+	color:#b4bcc8;
+	padding: 7px 45px 7px 45px;
+}
+#sidebar .nav-item:focus, #sidebar.nav-item:hover{
+	color:#fff !important;
+	
+}
+
+#sidebar>li a:hover, #sidebar>li a:focus{
+	background-color: #00BCD4!important;
+	color:#fff;
+}
+
+.ibox {
+    position: relative;
+    margin-bottom: 25px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+
+.widget-stat .ibox-body {
+    padding: 12px 15px;
+}
+.widget-stat-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0,0,0,.1);
+}
+
+.ibox i{
+	padding-top: 15%;
+}

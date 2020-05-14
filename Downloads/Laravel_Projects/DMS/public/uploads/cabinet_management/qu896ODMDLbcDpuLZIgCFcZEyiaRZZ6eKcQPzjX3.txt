@@ -1,0 +1,76 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.0.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Feb 08, 2020 at 12:42 PM
+-- Server version: 10.3.16-MariaDB
+-- PHP Version: 7.1.30
+
+--SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `cicrud`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tblusers`
+--
+
+CREATE TABLE `tblusers` (
+  `id` int(11) NOT NULL,
+  `FirstName` varchar(150) NOT NULL,
+  `LastName` varchar(150) NOT NULL,
+  `EmailId` varchar(120) NOT NULL,
+  `ContactNumber` char(11) NOT NULL,
+  `Address` varchar(255) NOT NULL,
+  `PostingDate` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tblusers`
+--
+
+INSERT INTO `tblusers` (`id`, `FirstName`, `LastName`, `EmailId`, `ContactNumber`, `Address`, `PostingDate`) VALUES
+(7, 'Demo', 'User', 'demouser@domain.com', '0123456785', 'New Delhi India', '2018-12-02 18:27:29'),
+(8, 'fhb', 'bvb', 'abc@gmail.com', '7698976876', 'gf', '2019-05-04 07:05:51'),
+(9, 'pooja', 'khambe', 'pooja.ebc2018@gmail.com', '8767878988', 'pune', '2019-05-20 05:16:04'),
+(11, 'sad', 'dasd', 'pooja@e-bc.in', '8686655676', 'pune', '2019-05-20 05:19:24'),
+(12, 'fgdf', 'gfhh', 'pooja@e-bc.in', '9876545676', 'pune', '2019-05-20 05:20:52'),
+(13, 'pooja', 'khame', 'pooja@gmail.com', '9858454215', '455', '2019-12-26 09:25:40');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `tblusers`
+--
+ALTER TABLE `tblusers`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `tblusers`
+--
+ALTER TABLE `tblusers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
